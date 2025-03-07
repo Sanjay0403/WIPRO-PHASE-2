@@ -1,0 +1,13 @@
+﻿@{
+    var product = ViewBag.Product as MVCAssign.Models.Product;
+}
+
+<h2>Product Details (Using ViewBag)</h2>
+@if (product != null)
+{
+    <p><strong>Code:</strong> @product.PCode</p>
+    <p><strong>Name:</strong> @product.Name</p>
+    <p><strong>Stock:</strong> @product.QtyInStock</p>
+    <p><strong>Details:</strong> @product.Details</p>
+    <p><strong>Price:</strong> $@product.Price</p>
+}
