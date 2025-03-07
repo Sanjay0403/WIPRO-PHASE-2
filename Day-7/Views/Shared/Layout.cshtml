@@ -1,0 +1,32 @@
+﻿@{
+    Layout = null; // In case this is an empty layout, else you can use _Layout.cshtml as the layout
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - MyMvcApp</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <h1>Welcome to My MVC Application</h1>
+        <nav>
+            <a href="/">Home</a> |
+            <a href="/First/Index1">First Controller</a> |
+            <a href="/Second/Index1">Second Controller</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- This is where the content from the view will be inserted -->
+        @RenderBody()
+    </main>
+
+    <footer>
+        <p>&copy; 2025 My MVC App</p>
+    </footer>
+</body>
+</html>
