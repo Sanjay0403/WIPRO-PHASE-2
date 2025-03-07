@@ -1,0 +1,32 @@
+﻿@model WebApplication2.Models.Customer
+
+<h2>Delete Customer</h2>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <div class="form-group">
+        <label>Name</label>
+        <p>@Model.Name</p>
+    </div>
+    <div class="form-group">
+        <label>Address</label>
+        <p>@Model.Address</p>
+    </div>
+    <div class="form-group">
+        <label>Country</label>
+        <p>@Model.Country</p>
+    </div>
+    <div class="form-group">
+        <label>City</label>
+        <p>@Model.City</p>
+    </div>
+    <div class="form-group">
+        <label>Phone</label>
+        <p>@Model.Phoneno</p>
+    </div>
+    <div class="form-group">
+        <label>Date Created</label>
+        <p>@Model.DateCreated.ToString("d")</p>
+    </div>
+    <button type="submit" class="btn btn-danger">Delete</button>
+    <a href="@Url.Action("Index")" class="btn btn-secondary">Cancel</a>
+</form>

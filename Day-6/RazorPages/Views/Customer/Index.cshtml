@@ -1,0 +1,40 @@
+﻿@model IEnumerable<WebApplication2.Models.Customer>
+
+@{
+    ViewData["Title"] = "Customer List";
+}
+
+<h2>Customer List</h2>
+
+<a href="@Url.Action("Create")" class="btn btn-primary">Create New Customer</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Country</th>
+            <th>City</th>
+            <th>Phone</th>
+            <th>Date Created</th> <!-- New column for Date -->
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var customer in Model)
+        {
+            <tr>
+                <td>@customer.Name</td>
+                <td>@customer.Address</td>
+                <td>@customer.Country</td>
+                <td>@customer.City</td>
+                <td>@customer.Phoneno</td>
+                <td>@customer.DateCreated.ToString("d")</td> <!-- Display Date -->
+                <td>
+                    <a href="@Url.Action("Edit", new { id = customer.CustomerID })" class="btn btn-warning">Edit</a>
+                    <a href="@Url.Action("Delete", new { id = customer.CustomerID })" class="btn btn-danger">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
