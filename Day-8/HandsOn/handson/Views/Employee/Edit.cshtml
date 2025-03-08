@@ -1,0 +1,35 @@
+﻿@model handson.Models.Employee
+
+<h2>Edit Employee</h2>
+<form method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <label>Name:</label>
+    <input type="text" asp-for="Name" required />
+    <span asp-validation-for="Name" class="text-danger"></span>
+
+    <label>Date of Birth:</label>
+    <input type="date" asp-for="DateOfBirth" required />
+    <span asp-validation-for="DateOfBirth" class="text-danger"></span>
+
+    <label>Date of Joining:</label>
+    <input type="date" asp-for="DateOfJoining" required />
+    <span asp-validation-for="DateOfJoining" class="text-danger"></span>
+
+    <label>Salary:</label>
+    <input type="number" asp-for="Salary" />
+    <span asp-validation-for="Salary" class="text-danger"></span>
+
+    <label>Department:</label>
+    <select asp-for="Dept">
+        <!-- Changed from Department to Dept -->
+        <option value="HR">HR</option>
+        <option value="Accts">Accts</option>
+        <option value="IT">IT</option>
+    </select>
+    <span asp-validation-for="Dept" class="text-danger"></span>
+
+    <button type="submit">Update</button>
+</form>
+
+<a href="/Employee/Index">Back to List</a>
