@@ -1,0 +1,12 @@
+C:\Users\sanjaydeep\source\repos\Phase-2\Day8\HANDSON\handson\handson.Models\bin\Debug\net8.0\handson.Models.deps.json
+C:\Users\sanjaydeep\source\repos\Phase-2\Day8\HANDSON\handson\handson.Models\bin\Debug\net8.0\handson.Models.dll
+C:\Users\sanjaydeep\source\repos\Phase-2\Day8\HANDSON\handson\handson.Models\bin\Debug\net8.0\handson.Models.pdb
+C:\Users\sanjaydeep\source\repos\Phase-2\Day8\HANDSON\handson\handson.Models\obj\Debug\net8.0\handson.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sanjaydeep\source\repos\Phase-2\Day8\HANDSON\handson\handson.Models\obj\Debug\net8.0\handson.Models.AssemblyInfoInputs.cache
+C:\Users\sanjaydeep\source\repos\Phase-2\Day8\HANDSON\handson\handson.Models\obj\Debug\net8.0\handson.Models.AssemblyInfo.cs
+C:\Users\sanjaydeep\source\repos\Phase-2\Day8\HANDSON\handson\handson.Models\obj\Debug\net8.0\handson.Models.csproj.CoreCompileInputs.cache
+C:\Users\sanjaydeep\source\repos\Phase-2\Day8\HANDSON\handson\handson.Models\obj\Debug\net8.0\handson.Models.sourcelink.json
+C:\Users\sanjaydeep\source\repos\Phase-2\Day8\HANDSON\handson\handson.Models\obj\Debug\net8.0\handson.Models.dll
+C:\Users\sanjaydeep\source\repos\Phase-2\Day8\HANDSON\handson\handson.Models\obj\Debug\net8.0\refint\handson.Models.dll
+C:\Users\sanjaydeep\source\repos\Phase-2\Day8\HANDSON\handson\handson.Models\obj\Debug\net8.0\handson.Models.pdb
+C:\Users\sanjaydeep\source\repos\Phase-2\Day8\HANDSON\handson\handson.Models\obj\Debug\net8.0\ref\handson.Models.dll
